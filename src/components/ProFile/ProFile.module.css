@@ -1,0 +1,7 @@
+.content {
+    grid-area: c;
+    background-color: blue;
+}
+.phot img{
+    width: 100px;
+}
