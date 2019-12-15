@@ -1,9 +1,11 @@
 .nav {
     grid-area: n;
     background-color: darkmagenta;
+    padding: 20px;
 }
 .item{
     color: #fff;
+    text-decoration: none;
 }
 .active {
     color: gold;
