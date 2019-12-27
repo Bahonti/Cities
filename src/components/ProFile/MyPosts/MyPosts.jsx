@@ -3,16 +3,25 @@ import cl from './MyPosts.module.css';
 import Post from "./Post/Post";
 
 const MyPosts = () => {
+    let post = [
+        {id: 1, message: 'Hi, how are you?', likesCount: 12},
+        {id: 2, message: 'It\'s my first post', likesCount: 11}
+    ]
+
+    let postsElements = post.map( p => <Post massage={p.message} likesCount={p.likesCount}/>);
     return(
-        <div>
-            My post
+        <div className={cl.postsBlock}>
+            <h3>My post</h3>
             <div>
-                <textarea></textarea>
-                <button>Add post</button>
+                <div>
+                    <textarea></textarea>
+                </div>
+                <div>
+                    <button>Add post</button>
+                </div>
             </div>
             <div className={cl.posts}>
-                <Post massage='Hi, how are you?' likesCount='99'/>
-                <Post massage="It's my first post" likesCount='13'/>
+                {postsElements}
             </div>
         </div>
     )
