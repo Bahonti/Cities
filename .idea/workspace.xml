@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="117740ad-8ab2-44a6-a7a1-329f9ee9189d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/redux/state.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/render.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ProFile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProFile/MyPosts/MyPosts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProFile/MyPosts/MyPosts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProFile/MyPosts/MyPosts.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ProFile/ProFile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProFile/ProFile.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/state.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +33,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Dialogs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -45,16 +46,17 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Nurali\Desktop\Bagdaulet\Cities\src\components\Dialogs" />
-      <recent name="C:\Users\Nurali\Desktop\Bagdaulet\Cities\src\components\ProFile\MyPosts\Post" />
-      <recent name="C:\Users\Nurali\Desktop\Bagdaulet\Cities\src\components\ProFile\MyPosts" />
-      <recent name="C:\Users\Nurali\Desktop\Bagdaulet\Cities\src\components" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Nurali\Desktop\Bagdaulet\Cities\src\components\ProFile" />
       <recent name="C:\Users\Nurali\Desktop\Bagdaulet\Cities\src\components\NavBar" />
       <recent name="C:\Users\Nurali\Desktop\Bagdaulet\Cities\src\components\Header" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WS\Cities\src" />
+      <recent name="C:\Users\Nurali\Desktop\Bagdaulet\Cities\src\components\Dialogs" />
+      <recent name="C:\Users\Nurali\Desktop\Bagdaulet\Cities\src\components\ProFile\MyPosts\Post" />
+      <recent name="C:\Users\Nurali\Desktop\Bagdaulet\Cities\src\components\ProFile\MyPosts" />
+      <recent name="C:\Users\Nurali\Desktop\Bagdaulet\Cities\src\components" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -96,7 +98,8 @@
       <workItem from="1577448291260" duration="427000" />
       <workItem from="1577448797318" duration="55000" />
       <workItem from="1577448864194" duration="1250000" />
-      <workItem from="1578215388147" duration="8204000" />
+      <workItem from="1578215388147" duration="8538000" />
+      <workItem from="1578467071802" duration="8473000" />
     </task>
     <servers />
   </component>
