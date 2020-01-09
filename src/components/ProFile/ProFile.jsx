@@ -8,7 +8,11 @@ const ProFile = (props) => {
     return(
         <div >
             <ProfileInfo/>
-            <MyPosts post={props.state.post} addPost={props.addPost}/>
+            <MyPosts post={props.profilePage.post}
+                     newPostText={props.profilePage.newPostText}
+                     addPost={props.addPost}
+                     updateNewPostText={props.updateNewPostText}
+            />
         </div>
     )
 }
